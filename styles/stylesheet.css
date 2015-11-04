@@ -1,0 +1,72 @@
+*{box-sizing: border-box;}
+p {font-family: arial; verdana, sans-serif;
+}
+header {
+  font-family: arial;
+  color: mediumpurple;
+  text-align: center;
+  font-size: 1.5rem;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+} 
+header nav li {
+  float: left;
+}
+header nav a { 
+  display: block;
+  width: 150px;
+  background-color: mediumpurple;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 550;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+aside {
+  float: left;
+  width: 20%;
+  background-color: lavender;
+}
+aside nav a {
+  color: white;
+  text-decoration: none;
+}
+aside nav ul {
+  list-style-type: none;
+  font-family: arial, verdana, sans-serif;
+}
+  
+div {
+  float: right;
+  width: 80%;
+  background-color: lightgrey;
+  font-family: arial, verdana, sans-serif;
+  font-size: .5em;
+  text-align: center;
+  
+}
+div figcaption {
+  font-family: arial; verdana, sans-serif;
+  color: black;
+  padding-bottom: 2.5rem;
+  pading-right: 3rem;
+  padding-left: 3rem;
+}
+div img {
+padding-top: 4rem;
+padding-bottom: 1.5rem;
+max-width: 40%;
+}
+footer {
+  clear: both;
+}
+footer li {
+  float: center;
+  text-align: center;
+  list-style-type: none;
+}
