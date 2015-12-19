@@ -27,6 +27,14 @@ header nav a {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+h2 {
+  padding-top: 1rem;
+  color: black;
+  font-family: arial;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 aside {
   float: left;
   width: 20%;
@@ -42,7 +50,7 @@ aside nav li {
 aside nav ul {
   list-style-type: none;
   font-family: arial, verdana, sans-serif;
-  padding-top: 3rem;
+  padding-top: .5rem;
 }
 div {
   float: right;
